@@ -1,0 +1,155 @@
+body {
+    overflow: hidden;
+}
+
+#id_equipo{
+    display: flex;
+    flex-direction: row;
+}
+
+#id_equipo2{
+    display: flex;
+    flex-direction: row;
+}
+
+#id_equipo #id_bd{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#id_bd:focus{
+    border: 0;
+    outline: none;
+}
+
+#id_equipo2 #id_bd2{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#id_bd2:focus{
+    border: 0;
+    outline: none;
+}
+
+#nombre_con, #nombre_per{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.modal-body {
+    overflow-x: auto;
+}
+
+#t_p_tr,
+#t_p_tb{
+    font-size: small;
+}
+
+#id_falt,
+#nombre_con_f, 
+#nombre_per_f{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#id_falt:focus,
+#nombre_con_f:focus,
+#nombre_per_f:focus{
+    border: 0;
+    outline: none;
+}
+
+#num_eq,
+#nom_con, 
+#nom_per{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#num_eq:focus,
+#nom_con:focus,
+#nom_per:focus{
+    border: 0;
+    outline: none;
+}
+
+#nombre_con_d,
+#nombre_per_d,
+#id_dev,
+#id_listo,
+#nombre_con_l,
+#nombre_per_l{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#nombre_con_d:focus,
+#nombre_per_d:focus,
+#id_dev:focus,
+#id_listo:focus,
+#nombre_con_l:focus,
+#nombre_per_l:focus{
+    border: 0;
+    outline: none;
+}
+
+#total,
+#recep,
+#listos{
+    margin: 0px 20px 20px 20px;
+    padding: 30px 20px 30px 20px;
+    color: #111B54;
+    font-weight: bold;
+    background: #E0DEDF;
+    background: -moz-linear-gradient(top, #E0DEDF 0%, #FFFFFF 78%, #CFCFCF 100%);
+    background: -webkit-linear-gradient(top, #E0DEDF 0%, #FFFFFF 78%, #CFCFCF 100%);
+    background: linear-gradient(to bottom, #E0DEDF 0%, #FFFFFF 78%, #CFCFCF 100%);
+    cursor: context-menu; 
+}
+
+
+#total:focus,
+#recep:focus,
+#listos:focus{
+    border: 0;
+    outline: none;
+}
+
+#kcon{
+    display: none;
+}
+
+/*  CSS de boton sugerencia
+#sugerencia_id{
+    cursor:pointer;
+    background-color:#ffffff;
+    color:#111B54;
+    border: 1px solid #111B54;
+    outline: none;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#sugerencia_id:hover{
+    background-color:#111B54;
+    color:#ffffff;
+}
+*/

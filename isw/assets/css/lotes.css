@@ -1,0 +1,55 @@
+#contrato,
+#cantidad, 
+#perfil{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#contrato:focus,
+#cantidad:focus,
+#perfil:focus{
+    border: 0;
+    outline: none;
+}
+
+#span_des{
+    font-size: large;
+    font-weight: bold;
+}
+
+#t_p_tr,
+#t_p_tb{
+    font-size: small;
+}
+
+#nombre_con, 
+#nombre_per{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#nombre_con:focus,
+#nombre_per:focus{
+    border: 0;
+    outline: none;
+}
+
+.span_m,
+.span_p,
+.span_h{
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnPerfil{
+    width: max-content;
+   
+}

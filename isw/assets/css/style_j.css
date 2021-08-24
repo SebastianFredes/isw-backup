@@ -1,0 +1,71 @@
+#id_interna,
+#perfil,
+#contrato,
+#id_interna_2,
+#perfil_2,
+#fecha_llegada,
+#id_interna_4 {
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#id_interna:focus,
+#perfil:focus,
+#id_interna_2:focus,
+#perfil_2:focus,
+#contrato:focus,
+#fecha_llegada:focus,
+#id_interna_4:focus {
+    border: 0;
+    outline: none;
+}
+
+#span_2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+#num_eq,
+#nom_con, 
+#nom_per{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#num_eq:focus,
+#nom_con:focus,
+#nom_per:focus{
+    border: 0;
+    outline: none;
+}
+
+#t_p_tr,
+#t_p_tb{
+    font-size: small;
+}
+
+#nombre_con, 
+#nombre_per{
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#nombre_con:focus,
+#nombre_per:focus{
+    border: 0;
+    outline: none;
+}
+
+.btnPerfil,
+.btnHistorial{
+ width: max-content;
+}
